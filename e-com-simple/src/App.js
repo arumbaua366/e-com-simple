@@ -12,7 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<We-Comm />} />
-          <Route path="success" element={<We-Comm />} />
+          <Route path="success" element={<Success />} />
+          <Route path="cancel" element={<Cancel />} />
         </Routes>
       </BrowserRouter>
     </Container>

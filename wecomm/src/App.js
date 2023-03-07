@@ -10,6 +10,7 @@ import Store from "./pages/Store";
 
 // localhost: 3001 -> Home
 // localhoust:3001/success -> Success
+// localhoust:3001/cancel -> Cancel
 
 function App() {
   return (

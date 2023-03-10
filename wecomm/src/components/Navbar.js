@@ -12,11 +12,11 @@ function NavbarComponent() {
         <Navbar.Brand href="/">We Comm</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Button>Cart 0 Items</Button>
+          <Button onClick={handleShow}>Cart 0 Items</Button>
         </Navbar.Collapse>
       </Navbar>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header>
+        <Modal.Header closeButton>
           <Modal.Title>Shopping Cart</Modal.Title>
         </Modal.Header>
         <Modal.Body>
